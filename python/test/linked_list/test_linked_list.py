@@ -1,5 +1,5 @@
 import unittest
-from linked_list import LinkedList
+import ../src/LinkedList
 
 class TestLinkedList(unittest.TestCase):
   def test_add(self):

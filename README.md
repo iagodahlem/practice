@@ -2,6 +2,10 @@
 
 :books: My daily plan for practicing programming languages.
 
+* [JavaScript](./javascript)
+* [Python](./python)
+* [Ruby](./ruby)
+
 ## Usage
 
 This code may be bug and untested. Use it by your own risk.
