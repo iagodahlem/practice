@@ -51,7 +51,7 @@ class LinkedList {
   }
 
   empty() {
-    return this.size() === 0
+    return this.head === null
   }
 }
 

@@ -1,7 +1,7 @@
-const LinkedList = require('./LinkedList')
+const LinkedList = require('../src/LinkedList')
 
 describe('LinkedList', () => {
-  it('add', () => {
+  test('add', () => {
     const list = new LinkedList()
 
     list.add(1)
@@ -13,7 +13,7 @@ describe('LinkedList', () => {
     })
   })
 
-  it('size', () => {
+  test('size', () => {
     const list = new LinkedList()
 
     expect(list.size()).toBe(0)
@@ -27,7 +27,7 @@ describe('LinkedList', () => {
     expect(list.size()).toBe(2)
   })
 
-  it('empty', () => {
+  test('empty', () => {
     const list = new LinkedList()
 
     expect(list.empty()).toBeTruthy()
